@@ -1,5 +1,12 @@
+require 'faker'
+
 puts "🌱 Seeding spices..."
 
-# Seed your database here
+50.times do
+    User.create(
+        username: Faker::Name.unique.name,
+        password: Faker::IDNumber.unique.valid
+    )
+end
 
 puts "✅ Done seeding!"
