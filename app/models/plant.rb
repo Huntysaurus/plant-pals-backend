@@ -1,2 +1,3 @@
-class plant < ActiveRecord::Base
+class Plant < ActiveRecord::Base
+    belongs_to :user
 end
