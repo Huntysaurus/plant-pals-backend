@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2022_05_17_020324) do
     t.integer "plant_age"
     t.string "plant_health"
     t.boolean "still_alive"
+    t.integer "plant_id"
   end
 
   create_table "users", force: :cascade do |t|

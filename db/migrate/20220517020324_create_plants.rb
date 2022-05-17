@@ -9,6 +9,7 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.integer :plant_age
       t.string :plant_health
       t.boolean :still_alive
+      t.integer :plant_id
     end
   end
 end
