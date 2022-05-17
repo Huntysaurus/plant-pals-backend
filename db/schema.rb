@@ -10,14 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_15_191929) do
+ActiveRecord::Schema.define(version: 2022_05_17_020324) do
+
+  create_table "plants", force: :cascade do |t|
+    t.string "plant_name"
+    t.string "plant_image"
+    t.string "plant_description"
+    t.string "plant_light_preference"
+    t.string "plant_care_difficulty"
+    t.integer "plant_age"
+    t.string "plant_health"
+    t.boolean "still_alive"
+  end
 
   create_table "users", force: :cascade do |t|
+    t.string "name"
     t.string "username"
     t.string "password"
-    t.string "nickname"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
 end
