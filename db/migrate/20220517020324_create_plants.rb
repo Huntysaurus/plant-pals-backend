@@ -1,13 +1,13 @@
 class CreatePlants < ActiveRecord::Migration[6.1]
   def change
     create_table "plants" do |t|
-      t.string :plant_name
-      t.string :plant_image
-      t.string :plant_description
-      t.string :plant_light_preference
-      t.string :plant_care_difficulty
-      t.integer :plant_age
-      t.string :plant_health
+      t.string :name
+      t.string :image
+      t.string :description
+      t.string :light_preference
+      t.string :care_difficulty
+      t.integer :age
+      t.string :health
       t.boolean :still_alive
       t.integer :user_id
     end

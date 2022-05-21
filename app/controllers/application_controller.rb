@@ -11,5 +11,6 @@ class ApplicationController < Sinatra::Base
   get'/plants' do
     plants = Plant.all
     plants.to_json
-    
+  end
+
 end
