@@ -33,4 +33,11 @@ class ApplicationController < Sinatra::Base
   #   plant.update(
 
   #   )
+
+  delete 'plants/:id' do
+    plant = Plant.find(params[:id])
+    plant.destroy
+    plant.to_json
+  end
+  
 end
