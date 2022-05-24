@@ -34,7 +34,8 @@ User.create(
 
 Plant.create(
     name: "orchid",
-    description: "tropical flower Asia",
+    image: "https://www.ofdesign.net/wp-content/uploads/files/5/3/8/tips-for-beautiful-indoor-plants-orchid-care-3-538.jpg",
+    description: "tropical flower from Asia",
     care_difficulty: "medium",
     health: "good!",
     user_id: "Henry"
@@ -42,6 +43,7 @@ Plant.create(
 
 Plant.create(
     name: "monstera",
+    image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/house-plants-1629187361.jpg?crop=0.288xw:0.577xh;0.0465xw,0.205xh&resize=640:*",
     description: "big ol leaves",
     care_difficulty: "easy",
     health: "great!"
@@ -49,6 +51,7 @@ Plant.create(
 
 Plant.create(
     name: "gardenia",
+    image: "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2016/02/Gardenia-jasminoides.jpg",
     description: "very fragrant flowers",
     care_difficulty: "very hard",
     health: "not too good..."
@@ -56,6 +59,7 @@ Plant.create(
 
 Plant.create(
     name: "sansevaria",
+    image: "https://www.joyusgarden.com/wp-content/uploads/2018/08/Snake-Plant-Leaves-Fall-Over.png",
     description: "this thing can't be killed!",
     care_difficulty: "very easy",
     health: "Great!"
