@@ -24,7 +24,7 @@ class ApplicationController < Sinatra::Base
       health: params[:health],
       still_alive: params[:still_alive],
       user_id: params[:user_id]
-
     )
-
+    plant.to_json
+  end
 end
