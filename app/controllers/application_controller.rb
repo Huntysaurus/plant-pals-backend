@@ -28,11 +28,15 @@ class ApplicationController < Sinatra::Base
     plant.to_json
   end
 
-  # patch '/plants' do
-  #   plant = Plant.find(params[:id])
-  #   plant.update(
-
-  #   )
+  patch '/plants/:id' do
+    plant = Plant.find(params[:id])
+    plant.update(
+      image: params[:image]
+      description: params[:description]
+      age: params[:age]
+    )
+    plant.to_json
+  end
 
   delete '/plants/:id' do
     plant = Plant.find(params[:id])
