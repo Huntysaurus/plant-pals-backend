@@ -67,4 +67,14 @@ Plant.create(
     user_id: 2
 )
 
+Plant.create(
+    name: 'plant',
+    image: 'plant picture',
+    description: 'plant desc',
+    light_preference: "indirect medium light",
+    care_difficulty: "beginner friendly",
+    age: 7,
+    user_id: 2
+)
+
 puts "✅ Done seeding!"

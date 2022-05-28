@@ -13,9 +13,18 @@ class ApplicationController < Sinatra::Base
     user.to_json
   end
 
-  get'/plants' do
+  get '/plants' do
     plants = Plant.all
     plants.to_json
+  end
+
+  post '/users' do
+    user = User.create(
+      name: params[:name],
+      username: params[:username],
+      password: params[:password]
+    )
+    user.jo_json
   end
 
   post '/plants' do
@@ -26,8 +35,6 @@ class ApplicationController < Sinatra::Base
       light_preference: params[:light_preference],
       care_difficulty: params[:care_difficulty],
       age: params[:age],
-      health: params[:health],
-      still_alive: params[:still_alive],
       user_id: params[:user_id]
     )
     plant.to_json
