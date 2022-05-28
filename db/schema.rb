@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_17_020324) do
+ActiveRecord::Schema.define(version: 2022_05_28_023459) do
 
   create_table "plants", force: :cascade do |t|
     t.string "name"
@@ -19,8 +19,6 @@ ActiveRecord::Schema.define(version: 2022_05_17_020324) do
     t.string "light_preference"
     t.string "care_difficulty"
     t.integer "age"
-    t.string "health"
-    t.boolean "still_alive"
     t.integer "user_id"
   end
 

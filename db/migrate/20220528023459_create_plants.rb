@@ -7,8 +7,6 @@ class CreatePlants < ActiveRecord::Migration[6.1]
       t.string :light_preference
       t.string :care_difficulty
       t.integer :age
-      t.string :health
-      t.boolean :still_alive
       t.integer :user_id
     end
   end
