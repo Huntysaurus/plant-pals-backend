@@ -1,14 +1,13 @@
 
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
-  
-  # Add your routes here
+
   get '/users' do
     users = User.all
     users.to_json
   end
 
-  get'/users/:id' do
+  get '/users/:id' do
     user=User.find(params[:id])
     user.to_json
   end
@@ -24,7 +23,7 @@ class ApplicationController < Sinatra::Base
       username: params[:username],
       password: params[:password]
     )
-    user.jo_json
+    user.to_json
   end
 
   post '/plants' do
