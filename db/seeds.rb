@@ -29,7 +29,7 @@ User.create(
 
 Plant.create(
     name: "orchid",
-    image: "https://www.ofdesign.net/wp-content/uploads/files/5/3/8/tips-for-beautiful-indoor-plants-orchid-care-3-538.jpg",
+    image: "https://images.pexels.com/photos/2180118/pexels-photo-2180118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "long time frame between flowering but worth the wait!",
     light_preference: "indirect bright light",
     care_difficulty: "advanced care",
@@ -39,7 +39,7 @@ Plant.create(
 
 Plant.create(
     name: "monstera",
-    image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/house-plants-1629187361.jpg?crop=0.288xw:0.577xh;0.0465xw,0.205xh&resize=640:*",
+    image: "https://images.pexels.com/photos/2001154/pexels-photo-2001154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "big ol' leaves and grows like a weed!",
     light_preference: "indirect bright light",
     care_difficulty: "beginner friendly",
@@ -49,7 +49,7 @@ Plant.create(
 
 Plant.create(
     name: "gardenia",
-    image: "https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2016/02/Gardenia-jasminoides.jpg",
+    image: "https://images.pexels.com/photos/6407078/pexels-photo-6407078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "very fragrant flowers and extremely high-maintenance",
     light_preference: "direct sunlight",
     care_difficulty: "quite finicky",
@@ -59,18 +59,8 @@ Plant.create(
 
 Plant.create(
     name: "sansevaria",
-    image: "https://www.joyusgarden.com/wp-content/uploads/2018/08/Snake-Plant-Leaves-Fall-Over.png",
+    image: "https://images.pexels.com/photos/5825581/pexels-photo-5825581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description: "very easy to take care of. Lives in my basement with almost no sun or water.",
-    light_preference: "indirect medium light",
-    care_difficulty: "beginner friendly",
-    age: 7,
-    user_id: 2
-)
-
-Plant.create(
-    name: 'plant',
-    image: 'plant picture',
-    description: 'plant desc',
     light_preference: "indirect medium light",
     care_difficulty: "beginner friendly",
     age: 7,
