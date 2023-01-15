@@ -1,6 +1,6 @@
 ## Plant Pals
 
-Back-end created with Ruby, using Sinatra and Active Record ruby gems.
+Back-end created with Ruby, using Sinatra and Active Record.
 
 ## The idea behind Plant Pals
 
