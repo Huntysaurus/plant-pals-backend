@@ -17,18 +17,29 @@ Once logged in or created, a user will be taken to a public page where a GET req
 Installation:
 
 install necessary files:
+
 ```
 $ bundle install
 ```
+
+assure that all necessary migrations have been made:
+
+```
+rake db:migrate
+```
+
 use pre-built seed data:
+
 ```
 $ bundle exec rake db:seed
 ```
 reset seed data:
+
 ```
 $ bundle exec rake db:seed:replant
 ```
 run the server
+
 ```
 $ bundle exec rake server
 ```
