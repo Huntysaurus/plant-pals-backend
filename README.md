@@ -8,6 +8,8 @@ Plant Pals is a basic CRUD application which uses a Ruby backend alongside the S
 
 ___
 The link to the separate front-end can be found here, https://github.com/Huntysaurus/phase-3-frontend.git.
+
+video walkthrough https://www.youtube.com/watch?v=eFUHwJDol74
 ___
 
 Plant Pals uses a one-to-many relationship on its backend with a User and Plant class where a single user can have many plants. Users can be created using a Name, Username and Password which will perform a POST request for the User class, creating a new instance of User. To prevent duplication, users can not have the same username.
